@@ -1,0 +1,29 @@
+{
+  "name": "tus-node",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Gavin Boulton <gavboulton@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavboulton/tus-node"
+  },
+    "bugs": {
+    "url": "https://github.com/gavboulton/tus-node/issues"
+  },
+  "engines": {
+    "node": "~6.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "tus-node-server": "^0.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
